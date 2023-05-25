@@ -8,5 +8,6 @@
 5. Dust Sensor</br>
 6. Remote distance measurement</br>
 7. Gas Sensors</br>
+8. Remote Power Management</br>
 
 **@ Ing. Amber Tiwari (PhD)
