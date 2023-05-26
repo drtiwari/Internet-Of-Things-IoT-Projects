@@ -1,4 +1,4 @@
-# InternetOfThings(IOT) Projects </br>
+# Internet Of Things (IOT) Projects </br>
 <b>Compiled list of several IOT Projects</b> </br>
 
 1. Tipping Bucket Rain Gauge</br>
