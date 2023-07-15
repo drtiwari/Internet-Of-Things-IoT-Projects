@@ -1,6 +1,6 @@
 #include <Chrono.h>
 //Chrono sharp;
-Chrono wait1(Chrono::MICROS);                                                    // timer for 10 second intervals for publishing level sensor to Serial
+Chrono wait1(Chrono::MICROS);                         // timer for 10 second intervals for publishing level sensor to Serial
 Chrono wait2(Chrono::MICROS);
 
 //ThingsBoard and Wifi Setup
