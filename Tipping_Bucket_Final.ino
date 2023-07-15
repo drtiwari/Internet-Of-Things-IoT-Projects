@@ -20,7 +20,7 @@ unsigned long tipTime;
 
 void countingRain() {
  if ((long)(micros() - last_micros_rg) >= DEBOUNCE_TIME) {
-    tipTime = (micros() - last_micros_rg);						//Time taken to fill 1 bucket
+    tipTime = (micros() - last_micros_rg);						                //Time taken to fill 1 bucket
     rainTrigger += 1;
     last_micros_rg = micros();
   }
