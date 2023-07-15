@@ -10,12 +10,12 @@ const char* wattTopic = "/HOME/watt";
 const char* hostnameStr = "PWR-Node";
 const char* otaPass = "Your OTA Password";
 
-netInfo homeNet = {  .mqttHost = "tailor.cloudmqtt.com",     //can be blank if not using MQTT
-          .mqttUser = "fnuhrpik",   //can be blank
-          .mqttPass = "0wNgF8gcdK1F",   //can be blank
-          .mqttPort = 12708,         //default port for MQTT is 1883 - only chance if needed.
-          .ssid = "WebPocket-1DAF", 
-          .pass = "557CHTEX"};
+netInfo homeNet = {  .mqttHost = "tailor.cloudmqtt.com",     // can be blank if not using MQTT
+          .mqttUser = "fnuhrpik",                            // can be blank
+          .mqttPass = "0wNgF8gcdK1F",                        // can be blank
+          .mqttPort = 12708,                                 // default port for MQTT is 1883 - only chance if needed.
+          .ssid = "YYYYYYYYYY", 
+          .pass = "XXXXXXXX"};
 
 ESPHelper myESP(&homeNet);
 
