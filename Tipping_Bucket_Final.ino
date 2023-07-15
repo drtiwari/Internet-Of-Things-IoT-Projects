@@ -43,9 +43,9 @@ void loop() {
    nextCalc = timer + CALC_INTERVAL;
    totalRain = rainTrigger * bucketAmount;
   
-   //rainRate = bucketAmount(mm)/tipTime(hr)								    // 1 us = 2.777 x 10^-10 hr = 2.777e-10 hr
-   //rainRate = (bucketAmount / tipTime)*36*pow(10,8);                            // Multiplied by 10 later due to rain machine
-   rainRatemm_hr = 14688000.0 / tipTime;                            // Multiplied by 10 later due to rain machine
+   //rainRate = bucketAmount(mm)/tipTime(hr)								              // 1 us = 2.777 x 10^-10 hr = 2.777e-10 hr
+   //rainRate = (bucketAmount / tipTime)*36*pow(10,8);            // Multiplied by 10 later due to rain machine
+   rainRatemm_hr = 14688000.0 / tipTime;                          // Multiplied by 10 later due to rain machine
    if (rainRatemm_hr >= 0) {
     rainRatemm_hr = rainRatemm_hr;
    }
